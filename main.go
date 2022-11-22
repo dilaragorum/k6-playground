@@ -49,3 +49,6 @@ func main() {
 //http_req_receiving: Time spent receiving response data from the remote host.
 //http_req_duration: Total time for the request. It's equal to http_req_sending + http_req_waiting + http_req_receiving
 //http_req_failed: the total number of failed requests/ The rate of failed requests a
+
+// rakyll/hey
+//hey -n 300 http://localhost:3000/users
